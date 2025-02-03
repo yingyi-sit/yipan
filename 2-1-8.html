@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-8</title>
+</head>
+<style>
+    html,body{
+        min-height: 100%;
+        width:100%;
+    }
+    body{
+        background:linear-gradient(to bottom,#FFF8DC,#E6E6FA);
+    }
+    
+    img{
+        width: 1150px;
+        position:absolute;
+        z-index:0;
+    }
+    
+   
+    
+    .play{
+        margin:25px 15%;
+    }
+    .fx div{
+        width:48px;
+        height:30px;
+        background-color:#838383;
+        font-size:21px;
+        border-radius:5px;
+        color:azure;
+        font-family:youyuan;
+        z-index:1;
+        position:relative; 
+        transition:all 0.1s;      
+    }
+    a{
+        text-decoration: none;
+    }
+    .fx div:hover{
+        background-color: crimson;
+        color:rgb(247, 244, 244);
+        transform:scale(1.5,1.5);
+    }
+
+
+    .first{
+        top:570px;
+        left:850px;
+    }
+    .second{
+        top:770px;
+        left:400px;
+    }
+    @media(any-hover:hover){
+        .fx div:hover{
+        background-color: crimson;
+        color:rgb(247, 244, 244);
+        transform:scale(1.5,1.5);
+    }
+    }
+
+
+</style>
+<body>
+    <div class="play">
+        <div class="picture">
+            <img src="4-9.jpg">
+        </div>
+        <div class="fx">
+            <a href="2-1-9.html" target="_self">
+            <div class="first">上楼</div>
+            </a>
+            <a href="2-1-7.html" target="_self">
+            <div class="second">后退</div>
+            </a>
+        </div>         
+    </div>
+    
+    
+</body>
+
+</html>
